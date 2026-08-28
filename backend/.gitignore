@@ -1,7 +1,0 @@
-venv/
-__pycache__/
-*.pyc
-.env
-dr_screening.db
-*.db
-seed_data_output.log
