@@ -1,0 +1,6 @@
+{
+  "name": "DR Screening",
+  "description": "AI-powered diabetic retinopathy screening tool with explainability (XAI) for clinical evaluation and referrals.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
