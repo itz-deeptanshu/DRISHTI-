@@ -1,6 +1,6 @@
 # Explainable AI for Diabetic Retinopathy Screening in Rural India
 
-**SIH26038** — A full-stack, explainable AI system that grades diabetic retinopathy severity from a retinal photo, visually explains its reasoning via Grad-CAM, and tracks each flagged patient through a referral lifecycle — built to be operated by a health worker with no medical training.
+**SIH26038** — A full-stack, explainable AI system that grades diabetic retinopathy severity from a retinal photo, visually explains its reasoning via Grad-CAM, and tracks each flagged patient through a referral lifecycle  built to be operated by a health worker with no medical training.
 
 ---
 
@@ -26,7 +26,7 @@
 
 ## The Problem
 
-India has over 77 million diabetic adults — the second highest number globally. Diabetic Retinopathy (DR) affects roughly 18% of this population and is a leading cause of preventable blindness. Early screening can prevent up to 90% of vision loss, but India has only about **1 ophthalmologist per 100,000 rural population**, making mass manual screening infeasible.
+India has over 77 million diabetic adults, the second highest number globally. Diabetic Retinopathy (DR) affects roughly 18% of this population and is a leading cause of preventable blindness. Early screening can prevent up to 90% of vision loss, but India has only about **1 ophthalmologist per 100,000 rural population**, making mass manual screening infeasible.
 
 Existing AI screening tools often function as black boxes, offer no visual explanation a non-specialist can trust, and struggle with the variable image quality produced by low-cost, portable fundus cameras in real field conditions.
 
@@ -34,12 +34,12 @@ Existing AI screening tools often function as black boxes, offer no visual expla
 
 1. A health worker captures or uploads a retinal (fundus) photo through the app
 2. The image is preprocessed (cropped, contrast-enhanced) and passed to a trained CNN
-3. The model returns a 5-class DR severity grade, a confidence score, and — when confidence is too low — flags the result as **uncertain** instead of forcing a guess
+3. The model returns a 5-class DR severity grade, a confidence score, and when confidence is too low, flags the result as **uncertain** instead of forcing a guess
 4. A **Grad-CAM heatmap** is generated, visually showing which regions of the image drove the prediction
 5. A **referral** is automatically created and tracked through a defined lifecycle (`screened → referred → confirmed → completed`)
-6. Aggregate results feed a **dashboard**, including referral completion rate — a public-health metric, not just a detection count
+6. Aggregate results feed a **dashboard**, including referral completion rate a public-health metric, not just a detection count
 
-Every piece described above is built, deployed, and independently verified working end-to-end — including by an external device over mobile data, not just localhost.
+Every piece described above is built, deployed, and independently verified working end-to-end including by an external device over mobile data, not just localhost.
 
 ## System Architecture
 
