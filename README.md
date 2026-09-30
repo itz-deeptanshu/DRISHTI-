@@ -1,6 +1,6 @@
 # Explainable AI for Diabetic Retinopathy Screening in Rural India
 
-**SIH26038** — A full-stack, explainable AI system that grades diabetic retinopathy severity from a retinal photo, visually explains its reasoning via Grad-CAM, and tracks each flagged patient through a referral lifecycle  built to be operated by a health worker with no medical training.
+A full-stack, explainable AI system that grades diabetic retinopathy severity from a retinal photo, visually explains its reasoning via Grad-CAM, and tracks each flagged patient through a referral lifecycle  built to be operated by a health worker with no medical training.
 
 ---
 
